@@ -1,0 +1,133 @@
+*{
+    font-family: sans-serif;
+}
+
+.heading,ul,il{
+    display: inline;
+    
+    
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    width: 1300px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.heading{
+    color: white;
+
+}
+ul{
+    color: rgb(219, 243, 84);
+    font-size: 22px;
+    padding-left: 57%;
+    cursor: pointer;
+
+}
+il:hover{
+    color: white;
+}
+body{
+    position: relative;
+    padding-top: 80px;
+   /* background-color: rgb(248, 186, 196); */
+ 
+   
+}
+.background{
+    position: absolute;
+    background-image: url(image/img1.jpg);
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    filter: blur(2px);
+    
+    z-index: -1;
+
+}
+.html,.css{
+    background-color: aqua;
+    z-index: 10;
+    border-radius: 15px;
+    width: 800px;
+    height: 740px;
+    scroll-margin-top:80px;
+}
+.introhtml,.introcss{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 750px;
+    padding: 15px;
+}
+.javascript{
+    background-color: white;
+    z-index: 10;
+    border-radius: 15px;
+    width: 800px;
+    height: 740px;
+    scroll-margin-top: 80px;
+}
+.introjav{
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    width: 750px;
+    padding: 15px;
+}
+
+.anchor{
+    background-color: rgb(69, 241, 69);
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+.anchor:hover{
+color: blueviolet;
+}
+
+.creater{
+    
+    position: fixed;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    left: 87%;
+    z-index: 20;
+    top: 85%;
+    background-color: chartreuse;
+   
+    
+
+
+}
+#model{
+   
+    background-color: rgb(173, 247, 62);
+    width: 200px;
+    height: 250px;
+    left: 80%;
+    top:20%;
+    border-radius: 10px;
+}
+
+#model #clo{
+       position: relative;
+       margin-top: 10%;
+       margin-left: 35%;
+       width: 65px;
+       height: 35px;
+       background-color: red;
+       font-size: 20px;
+       
+}
